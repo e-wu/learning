@@ -1,0 +1,11 @@
+{
+  "title": "Javascript",
+  "description": "This course will focus on Javascript knowledge and fundementals.",
+  "courses": [
+    {
+      "course_id": "challenge-for-loops-beginner",
+      "title": "For Loop (Beginner)",
+      "description": "Validate your knowledge of a for loop (beginner)"
+    }
+  ]
+}
