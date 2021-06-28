@@ -3,7 +3,7 @@ echo "Started"
 # Create the file
 cat << 'EOF' > /root/forloop.js
 function validateLoop(start, end) {
-  # Code goes here.
+  // Code goes here.
 }
 EOF
 
@@ -20,7 +20,7 @@ validateLoop(0, 100);
 
 # Do we have a log length of 100?
 if (log.length !== 100) {
-  console.log("Error", x);
+  console.log("Error: Loop is invalid length as expected <100> got <" + log.length + ">");
   process.exit(1);
 }
 

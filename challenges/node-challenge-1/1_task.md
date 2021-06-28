@@ -1,1 +1,0 @@
-Fix multiply.js to execute properly
