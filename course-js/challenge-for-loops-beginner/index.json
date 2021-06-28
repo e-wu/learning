@@ -1,9 +1,8 @@
 {
-  "type": "challenge@0.6",
   "title": "For Loops",
   "description": "Intro to for loops challenge",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
