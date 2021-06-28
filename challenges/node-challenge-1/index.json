@@ -1,13 +1,14 @@
 {
-  "title": "For Loops",
-  "description": "Intro to for loops challenge",
+  "type": "challenge@0.7",
+  "title": "Challenge Example - Node.js",
+  "description": "",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Task 1 - Write For Loop",
-        "text": "1_tasks.md",
+        "title": "Task 1 - Fix Tests",
+        "text": "1_task.md",
         "verify": "1_verify.sh"
       }
     ],
@@ -17,6 +18,15 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
     }
   },
   "environment": {
