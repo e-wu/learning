@@ -1,24 +1,28 @@
 {
-  "title": "For Loops - Intro",
+  "type": "challenge@0.7",
+  "title": "For Loops",
   "description": "Intro to for loops challenge",
   "difficulty": "Beginner",
   "time": "5",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Task 1 - Write For Loop",
+        "text": "1_steps.md",
+        "verify": "1_verify.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "background.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "hidesidebar": true,
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "javascript"
