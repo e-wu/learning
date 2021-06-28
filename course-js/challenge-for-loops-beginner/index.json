@@ -8,7 +8,7 @@
     "steps": [
       {
         "title": "Task 1 - Write For Loop",
-        "text": "1_steps.md",
+        "text": "1_tasks.md",
         "verify": "1_verify.sh"
       }
     ],
