@@ -119,7 +119,7 @@ if (log.length !== 2) {
   process.exit(1);
 }
 
-if (log[0] !== 1 || log[1] !== 2) {
+if (log[0] !== 3 || log[1] !== 0) {
   console.log("Error: Not using start and end variable, so failing.");
   process.exit(1);
 }
