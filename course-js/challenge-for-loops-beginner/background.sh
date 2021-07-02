@@ -136,7 +136,7 @@ EOF
 cat << 'EOF' > /opt/checkfor.sh
 #!/bin/bash
 
-cat /root/forloop.js $1 > ./.run.js; node ./.run.js;
+cat /root/forloop.js $1 > /opt/.run.js; node /opt/.run.js;
 
 EXIT_CODE=$?
 
@@ -151,5 +151,7 @@ fi
 exit 1;
 
 EOF
+
+chmod +x /opt/checkfor.sh
 
 echo 'done' > /opt/katacoda-background-finished
