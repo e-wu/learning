@@ -1,6 +1,6 @@
 Please complete the for loop inside the function ```validateLoop``` by writing to console.log on each loop iteration.
 
-Given start = 0 and end=100, the output must be:
+Given start = 0 and end=100, the output must be only odd numbers:
 ```
 1
 3

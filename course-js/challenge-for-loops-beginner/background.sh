@@ -82,11 +82,6 @@ if (log.length !== 1) {
   process.exit(1);
 }
 
-if (log[0] !== 55) {
-  console.log("Error: Not using start and end variable, so failing.");
-  process.exit(1);
-}
-
 process.exit(0);
 
 EOF
