@@ -1,6 +1,6 @@
 Please complete the for loop inside the function ```validateLoop``` by writing to console.log on each loop iteration.
 
-The example output must be:
+Given start = 0 and end=100, the output must be:
 ```
 0
 1
@@ -17,3 +17,10 @@ Notes:
 - The ```start``` variable is always 0.
 - The ```end``` vairable is always 100.
 - Please only write out the index with ```console.log```.
+- You must use the ```start``` and ```end``` variables in your for loop.
+- You must do everything using only by modifying the for loop header. The for loop body must remain as for example:
+    ```
+    for (...) {
+        console.log(i);
+    }
+    ```

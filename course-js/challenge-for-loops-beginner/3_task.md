@@ -3,14 +3,18 @@ Please complete the for loop inside the function ```validateLoop``` by writing t
 Given start = 0 and end=100, the output must be:
 ```
 1
+2
 3
-5
-7
+0
+1
+2
+3
+0
 ... ommitted ...
-93
-95
-97
-99
+0
+1
+2
+3
 ```
 
 Notes:
@@ -24,3 +28,4 @@ Notes:
         console.log(i);
     }
     ```
+- Review what a for loop looks like on [wikipedia](https://en.wikipedia.org/wiki/For_loop).

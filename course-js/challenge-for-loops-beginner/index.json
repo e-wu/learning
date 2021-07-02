@@ -7,14 +7,19 @@
   "details": {
     "steps": [
       {
-        "title": "Beginner",
+        "title": "Easy (Ice breaker)",
         "text": "1_task.md",
         "verify": "1_verify.sh"
       },
       {
-        "title": "Intermediate",
+        "title": "A little harder",
         "text": "2_task.md",
         "verify": "2_verify.sh"
+      },
+      {
+        "title": "Challenge",
+        "text": "3_task.md",
+        "verify": "3_verify.sh"
       }
     ],
     "intro": {
