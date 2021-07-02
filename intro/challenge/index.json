@@ -1,0 +1,49 @@
+{
+  "type": "challenge@0.7",
+  "title": "Challenge",
+  "description": "Demo of challenges",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Easy",
+        "text": "1_task.md",
+        "verify": "1_verify.sh"
+      },
+      {
+        "title": "A little harder",
+        "text": "2_task.md",
+        "verify": "2_verify.sh"
+      },
+      {
+        "title": "Challenge",
+        "text": "3_task.md",
+        "verify": "3_verify.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "hidesidebar": true,
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

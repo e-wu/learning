@@ -1,0 +1,11 @@
+{
+  "title": "Introduction",
+  "description": "This course will focus on how to use the Katacoda platform.",
+  "courses": [
+    {
+      "course_id": "challenge",
+      "title": "How a challenge works",
+      "description": "Demonostrate of a challenge"
+    }
+  ]
+}
