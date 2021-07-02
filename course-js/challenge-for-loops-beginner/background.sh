@@ -136,12 +136,12 @@ EOF
 cat << 'EOF' > /opt/checkfor.sh
 #!/bin/bash
 
-cat ./forloop.js $1 > ./.run.js; node ./.run.js;
+cat /root/forloop.js $1 > ./.run.js; node ./.run.js;
 
 EXIT_CODE=$?
 
 if [ "$EXIT_CODE" = "0" ]; then
-    CHECKING=$(tr --delete '\n' < ./forloop.js | tr --delete '   ' | grep -e 'for(.*){console.log(.*);}' | wc -l)
+    CHECKING=$(tr --delete '\n' < /root/forloop.js | tr --delete '   ' | grep -e 'for(.*){console.log(.*);}' | wc -l)
 
     if [ "$CHECKING" = "1" ]; then
         exit 0;

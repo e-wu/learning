@@ -22,10 +22,12 @@ Notes:
 - The ```end``` vairable is always 100.
 - Please only write out the index with ```console.log```.
 - You must use the ```start``` and ```end``` variables in your for loop.
-- You must do everything using only by modifying the for loop header. The for loop body must remain as for example:
+- You must do everything by modifying the for loop header. The for loop body must remain as for example:
     ```
-    for (...) {
-        console.log(i);
+    function validateLoop(start, end) {
+        for (...) {
+            console.log(i);
+        }
     }
     ```
 - Review what a for loop looks like on [wikipedia](https://en.wikipedia.org/wiki/For_loop).
