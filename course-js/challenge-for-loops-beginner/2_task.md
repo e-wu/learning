@@ -6,7 +6,7 @@ Given start = 0 and end=100, the output must be only odd numbers:
 3
 5
 7
-... ommitted ...
+... ommitted 42 lines ...
 93
 95
 97
