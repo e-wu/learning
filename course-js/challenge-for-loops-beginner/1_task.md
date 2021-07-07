@@ -6,7 +6,7 @@ Given start = 0 and end=100, the output must be:
 1
 2
 3
-... ommitted ...
+... ommitted 92 lines ...
 96
 97
 98
