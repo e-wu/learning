@@ -2,15 +2,15 @@ Please complete the for loop inside the function ```validateLoop``` by writing t
 
 Given start = 0 and end=100, the output must be:
 ```
-1
-2
-3
 0
 1
 2
 3
 0
-... ommitted ...
+1
+2
+3
+... ommitted 88 lines ...
 0
 1
 2
